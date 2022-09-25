@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>this is practice</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style/p.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+    <h1>CALCULATOR</h1>
+    <div class=" out_box ">
+        <input type="text" id="text_box">
+        <input type="button" value="CLR" class="c" onclick="cl()">
+        <table id="calcu">
+            <tr>
+                <td><input type="button" value="1" onclick="dis('1')" onkeydown="m(event)"> </td>
+                <td><input type="button" value="2" onclick="dis('2')" onkeydown="m(event)"> </td>
+                <td><input type="button" value="3" onclick="dis('3')" onkeydown="m(event)"> </td>
+                <td><input type="button" value="/" onclick="dis('/')" onkeydown="m(event)"> </td>
+            </tr>
+            <tr>
+                <td><input type="button" value="4" onclick="dis('4')" onkeydown="m(event)"> </td>
+                <td><input type="button" value="5" onclick="dis('5')" onkeydown="m(event)"> </td>
+                <td><input type="button" value="6" onclick="dis('6')" onkeydown="m(event)"> </td>
+                <td><input type="button" value="*" onclick="dis('*')" onkeydown="m(event)"> </td>
+            </tr>
+            <tr>
+                <td><input type="button" value="7" onclick="dis('7')" onkeydown="m(event)"> </td>
+                <td><input type="button" value="8" onclick="dis('8')" onkeydown="m(event)"> </td>
+                <td><input type="button" value="9" onclick="dis('9')" onkeydown="m(event)"> </td>
+                <td><input type="button" value="-" onclick="dis('-')" onkeydown="m(event)"> </td>
+            </tr>
+            <tr>
+                <td><input type="button" value="0" onclick="dis('0')" onkeydown="m(event)"> </td>
+                <td><input type="button" value="." onclick="dis('.')" onkeydown="m(event)"> </td>
+                <td><input type="button" value="=" onclick="solve()"> </td>
+
+                <td><input type="button" value="+" onclick="dis('+')" onkeydown="m(event)"> </td>
+            </tr>
+        </table>
+    </div>
+    <footer class="detail">
+        <p class="name">Created by - Vikrant Rana</p>
+        <a href="https://github.com/vikrant886"><i class="fa fa-github" style="font-size:36px" ></i></a>
+        <a href="https://www.linkedin.com/in/vikrant-rana-64133122a/"><i class="fa fa-linkedin" style="font-size:36px" ></i></a>
+        <a href="https://codeforces.com/profile/vikrant817"><i class="fa fa-code" style="font-size:36px" ></i></a>
+
+    </footer>
+
+    <script src="script/new.js " async defer></script>
+</body>
+
+</html>
