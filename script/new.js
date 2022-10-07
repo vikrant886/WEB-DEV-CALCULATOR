@@ -13,3 +13,8 @@ function solve() {
     var ans = eval(a);
     document.getElementById("text_box").value = ans;
 }
+document.addEventListener("keyup", (event) => {
+    if (event.code == "Enter") {
+        solve();
+    }
+})
